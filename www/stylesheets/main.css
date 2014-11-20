@@ -1,0 +1,30 @@
+.special {
+  background: skyblue;
+  text-align: center;
+  padding: 2rem 3rem;
+  width: 35rem;
+  margin: 2rem auto;
+}
+
+.special-than-special {
+  font-style: italic;
+  font-size: 2rem;
+  text-decoration: underline;
+  -webkit-animation-name: anim;
+  -o-animation-name: anim;
+  animation-name: anim;
+  -webkit-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@keyframes anim {
+  0% {  transform: translateX(-10px);  }
+  100% {  transform: translateX(10px);  }
+}
